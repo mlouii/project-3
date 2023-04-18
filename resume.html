@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+  <script src="scripts/script.js"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsgBRUh55Ayz7VSnjBxhwbRzKvdcyeD-Y&callback=initMap">
+</script>
+  <meta charset="UTF-8">
+  <title>Mark Lou Resume</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">
+        <div class="navButton">
+          Homepage
+        </div>
+      </a>
+      <a href="hamsters.html">
+        <div class="navButton">
+          Cool Hampters
+        </div>
+      </a>
+      <a href="resume.html">
+        <div class="navButton clicked">
+          My Resume
+        </div>
+      </a>
+      <a href="map.html">
+        <div class="navButton">
+          Map
+        </div>
+      </a>
+    </nav>
+  </header>
+  <div class="notification">
+    <h2>This is my required fixed width layout page, zoom out if things are too big </h2>
+    <p class="subtext">Or just spend some money and buy a bigger monitor </p>
+    <audio autoplay>
+      <source src="media/funky-jazz.mp3" type="audio/mp3">
+    </audio>
+    <img class="left" src="media/openai.png" alt="hamster">
+    <img class="right" src="media/openai.png" alt="hamster">
+  </div>
+
+  <div class="resume">
+    <div class="titleBar">
+      <h1 class="resumeTitle">Mark Lou</h1>
+      <a href="http://www.linkedin.com/in/mlouii">Linkedin</a>
+    </div>
+    <h2 class="sectionHead">Education</h2>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Illinois Institute of Technology</strong> - <em>MS in Data Science, BS in Computer Science</em></h4>
+        <h4 class="date">Aug 2018 - May 2023</h4>
+      </div>
+      <ul>
+        <li><strong>Relevant Coursework:</strong> Databases, Hamster Mining, Big Hamster Technologies, Operating
+          Hamster, Hamster and Statistics,
+          Mathematical Hamster
+        </li>
+        <li><strong>Current GPA:</strong> 3.89 and dropping</li>
+        <li><strong>TA Positions:</strong> Data Structures and Algorithms, Intro to Profession (CS) </li>
+      </ul>
+    </div>
+    <h2 class="sectionHead">Experience</h2>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Chan Zuckerberg Initiative</strong> - <em>Data Engineering Intern (Education)</em></h4>
+        <h4 class="date">May 2022 - Aug 2022</h4>
+      </div>
+      <ul>
+        <li>Spearheaded a project giving data scientists the ability to understand exactly how users spend their time on
+          our platform</li>
+        <li>Determined strategies for use of dbt, and incorporating it with our Airflow ETL pipelines into Snowflake
+        </li>
+        <li>Successfully led my intern cohort on a trespassing assignment onto Stanford Campus</li>
+      </ul>
+    </div>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Esri</strong> - <em>Software Engineering Intern</em></h4>
+        <h4 class="date">May 2021 - Aug 2021</h4>
+      </div>
+      <ul>
+        <li>Worked with gRPC and Kubernetes to create pipelines for data into our real time data analytics service</li>
+        <li>Expanded features of a Node.js API to allow users to transform and query geospatial data from Snowflake</li>
+        <li>Slept through the afternoons in my bed and walked miles to my barber to get a haircut on company time</li>
+      </ul>
+    </div>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Caterpillar</strong> - <em>Software Engineering Intern (Architecture and Analytics)</em></h4>
+        <h4 class="date">June 2020 - Feb 2021</h4>
+      </div>
+      <ul>
+        <li>Used AWS Lambda and SQS to pipeline vast amounts of data between Snowflake, S3, and DynamoDB</li>
+        <li>Reduced latency of our Python Snowflake integrations package by 50% through refactoring</li>
+        <li>Almost wasted a lot of AWS credits by creating an infinite loop that I couldn't terminate</li>
+      </ul>
+    </div>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>ProvenAir</strong> - <em>Software Engineering Intern</em></h4>
+        <h4 class="date">June 2017 - Aug 2019</h4>
+      </div>
+      <ul>
+        <li>Automated a manual data ingestion workload by integrating an OCR pipeline, reducing time from days to
+          minutes</li>
+        <li>Greatly improved text recognition by denoising dirty scans with the SciKit-Image library</li>
+        <li>Developed an addiction to coffee and learned to enjoy drinking sparkling water</li>
+      </ul>
+    </div>
+    <h2 class="sectionHead">Research/Projects</h2>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>CUDA Code Optimization</strong> - <em>Research with Professor</em></h4>
+        <h4 class="date">Aug 2021 - Present</h4>
+      </div>
+      <ul>
+        <li>Ima be honest, I still don't know what I've done sometimes and I definitely don't know what I'm doing now
+        </li>
+      </ul>
+    </div>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Clinical Care Dataset</strong> - <em>Tamr/Open Avenues</em></h4>
+        <h4 class="date">Jan 2022 - Feb 2022</h4>
+      </div>
+      <ul>
+        <li>Spent most of the weeks trying to debug my Pandas merge, and then created a dataset that didn't make sense
+          at the end</li>
+      </ul>
+    </div>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Autonomous Tractor</strong> - <em>EarthSense/DPI Research Scholars Program</em></h4>
+        <h4 class="date">Jan 2021 - May 2021</h4>
+      </div>
+      <ul>
+        <li>Served as the project manager for a team developing a GPS and onboard sensor guided autonomous planting
+          tractor</li>
+        <li>Adapted quickly once a ex-Tesla intern came on the team and made us all un-stuck because we were useless
+        </li>
+      </ul>
+    </div>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Accuroid</strong> - <em>Accenture Chicago Hackathon</em></h4>
+        <h4 class="date">Mar 2019</h4>
+      </div>
+      <ul>
+        <li>Led a group in creating a prototype health application using a given dataset, which received first place
+        </li>
+        <li>We only won because one of our teammates was a marketer and came up with an excellent presentation</li>
+      </ul>
+    </div>
+    <h2 class="sectionHead">Volunteer</h2>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Lead Teacher</strong> - <em>Code Nation, Chicago</em></h4>
+        <h4 class="date">Aug 2019 - Present</h4>
+      </div>
+      <ul>
+        <li>Taught web development courses to low-income public high school students without access to a CS Curriculum
+        </li>
+      </ul>
+    </div>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Mentor</strong> - <em>Mentor Match Engine</em></h4>
+        <h4 class="date">Feb 2022 - May 2022</h4>
+      </div>
+      <ul>
+        <li>Assisted high school students in developing a web based mobile application, and offered guidance about CS
+          related career
+          pathways</li>
+      </ul>
+    </div>
+    <div class="experience">
+      <div class="experienceTitle">
+        <h4><strong>Instructor</strong> - <em>IMSA Intersession</em></h4>
+        <h4 class="date">Dec 2018</h4>
+      </div>
+      <ul>
+        <li>Instructed a week-long course on introductory data science principles, as well as Pandas, Numpy, and
+          Scikit-Learn</li>
+      </ul>
+    </div>
+    <h2 class="sectionHead">Skills</h2>
+    <ul>
+      <li><strong>Language</strong> – Python, SQL, Typescript, HTML, CSS, Java, Ocaml</li>
+      <li><strong>Frameworks and Tools</strong> - Airflow, dbt, AWS, Azure, Firebase, Snowflake, PostgreSQL, Flask,
+        Angular</li>
+    </ul>
+  </div>
+</body>
+
+</html>
